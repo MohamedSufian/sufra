@@ -1,0 +1,380 @@
+{
+  "@@locale": "en",
+  "appName": "Sufra",
+  "splashTagline": "From Gaza, with love",
+  "onboardingTitle1": "Gaza's best kitchens, in one app",
+  "onboardingBody1": "Shawarma, grills, knafeh and more from the restaurants you love.",
+  "onboardingTitle2": "Pin it, we'll find you",
+  "onboardingBody2": "Drop a pin on the map and add a landmark. Our riders know the way.",
+  "onboardingTitle3": "Track every step",
+  "onboardingBody3": "Follow your order live and pay cash on delivery.",
+  "skip": "Skip",
+  "next": "Next",
+  "getStarted": "Let's eat",
+  "deliverTo": "Deliver to",
+  "greetingGuest": "Hey there",
+  "homeHeadline": "What are you craving today?",
+  "searchHint": "Search restaurants or dishes...",
+  "filters": "Filters",
+  "dealBadge": "Deal of the week",
+  "dealTitle": "20% off your first order",
+  "dealCode": "Code: {code}",
+  "@dealCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "categories": "Categories",
+  "seeAll": "See all",
+  "nearYou": "Near you",
+  "openNow": "Open now",
+  "closed": "Closed",
+  "minutesRange": "{min}–{max} min",
+  "@minutesRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "deliveryFee": "₪{fee} delivery",
+  "@deliveryFee": {
+    "placeholders": {
+      "fee": {
+        "type": "int"
+      }
+    }
+  },
+  "addToFavorites": "Add to favorites",
+  "removeFromFavorites": "Remove from favorites",
+  "navHome": "Home",
+  "navFavorites": "Favorites",
+  "navCart": "Cart",
+  "navOrders": "Orders",
+  "navProfile": "Profile",
+  "errorTitle": "Something went wrong",
+  "errorBody": "Check your connection and try again.",
+  "retry": "Try again",
+  "noResultsTitle": "No matches",
+  "noResultsBody": "Try another dish or category.",
+  "favoritesEmptyTitle": "No favorites yet",
+  "favoritesEmptyBody": "Tap the heart on any restaurant to keep it here.",
+  "cartEmptyTitle": "Your cart is empty",
+  "cartEmptyBody": "Add something tasty and it will show up here.",
+  "ordersEmptyTitle": "No orders yet",
+  "ordersEmptyBody": "Your orders and their status will appear here.",
+  "browseRestaurants": "Browse restaurants",
+  "guestTitle": "Browsing as a guest",
+  "guestBody": "Sign in to save your addresses and orders.",
+  "signIn": "Sign in",
+  "settings": "Settings",
+  "language": "Language",
+  "languageSystem": "Device",
+  "theme": "Theme",
+  "themeSystem": "Device",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "madeInGaza": "Made in Gaza, with love",
+  "ratingsCount": "{count} ratings",
+  "@ratingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "minutesShort": "min",
+  "deliveryLabel": "Delivery",
+  "minOrderLabel": "Min. order",
+  "price": "₪{price}",
+  "@price": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "popular": "Popular",
+  "soldOut": "Sold out",
+  "share": "Share",
+  "back": "Back",
+  "closedBanner": "Closed right now. You can still browse the menu.",
+  "menuEmptyTitle": "No menu yet",
+  "menuEmptyBody": "This restaurant hasn't added its dishes yet.",
+  "addItem": "Add {name}",
+  "@addItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "increase": "One more",
+  "decrease": "One less",
+  "itemsCount": "{count, plural, =1{1 item} other{{count} items}}",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewCart": "View cart",
+  "replaceCartTitle": "Start a new cart?",
+  "replaceCartBody": "Your cart has items from {restaurant}. Clear it and add this dish?",
+  "@replaceCartBody": {
+    "placeholders": {
+      "restaurant": {
+        "type": "String"
+      }
+    }
+  },
+  "replaceCartConfirm": "New cart",
+  "cancel": "Cancel",
+  "subtotal": "Subtotal",
+  "total": "Total",
+  "checkout": "Checkout",
+  "clearCart": "Clear",
+  "minOrderNotice": "Add ₪{amount} more to reach the minimum order",
+  "@minOrderNotice": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "cartFrom": "From {restaurant}",
+  "@cartFrom": {
+    "placeholders": {
+      "restaurant": {
+        "type": "String"
+      }
+    }
+  },
+  "required": "Required",
+  "optional": "Optional",
+  "done": "Done",
+  "pickOne": "Pick one",
+  "pickUpTo": "Pick up to {count}",
+  "@pickUpTo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noteTitle": "Note for the restaurant",
+  "noteHint": "e.g. no onions, a little spicy",
+  "addToCartPrice": "Add to cart · ₪{price}",
+  "@addToCartPrice": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "completeChoices": "Complete your choices",
+  "restaurantClosed": "Restaurant is closed",
+  "priceDelta": "+₪{price}",
+  "@priceDelta": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "close": "Close",
+  "checkoutTitle": "Checkout",
+  "addAddress": "Add delivery address",
+  "addNewAddress": "Add a new address",
+  "change": "Change",
+  "edit": "Edit",
+  "deleteAddress": "Delete",
+  "myAddresses": "My addresses",
+  "chooseAddress": "Choose your address",
+  "pickLocationTitle": "Set delivery location",
+  "pickLocationHint": "Move the map until the pin sits on your door",
+  "confirmLocation": "Confirm location",
+  "myLocation": "My location",
+  "outsideDeliveryArea": "Outside our delivery area",
+  "outsideDeliveryAreaBody": "We deliver inside the Gaza Strip for now.",
+  "locationDenied": "Location permission is off. You can still move the map by hand.",
+  "locationDisabled": "Turn on location services so we can find you faster.",
+  "locationOutside": "You seem to be outside Gaza. Move the map to where you'd like your order.",
+  "locationFailed": "We couldn't get your location. Move the map by hand.",
+  "addressDetailsTitle": "Address details",
+  "labelHome": "Home",
+  "labelWork": "Work",
+  "labelOther": "Other",
+  "landmarkLabel": "Nearest landmark",
+  "landmarkHint": "e.g. near Al-Omari mosque, opposite the pharmacy",
+  "landmarkRequired": "Add a landmark so the rider finds you",
+  "detailsLabel": "Street, building, floor",
+  "phoneLabel": "Mobile number",
+  "phoneInvalid": "Enter a valid mobile number (059 or 056)",
+  "saveAddress": "Save address",
+  "changeLocation": "Change location",
+  "paymentMethod": "Payment method",
+  "cashOnDelivery": "Cash on delivery",
+  "cashOnDeliveryHint": "Pay the rider when your order arrives",
+  "eWallet": "E-wallet",
+  "soon": "Soon",
+  "promoTitle": "Promo code",
+  "promoHint": "Enter code",
+  "apply": "Apply",
+  "promoInvalid": "This code isn't valid",
+  "discount": "Discount",
+  "remove": "Remove",
+  "orderSummary": "Order summary",
+  "placeOrder": "Place order · ₪{price}",
+  "@placeOrder": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseAddressFirst": "Choose an address first",
+  "deliveryEta": "Arrives in {min}-{max} min",
+  "@deliveryEta": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "orderPlacedTitle": "Order received!",
+  "orderPlacedBody": "{restaurant} is getting it ready.",
+  "@orderPlacedBody": {
+    "placeholders": {
+      "restaurant": {
+        "type": "String"
+      }
+    }
+  },
+  "orderNumber": "Order #{id}",
+  "@orderNumber": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "trackOrder": "Track order",
+  "backToHome": "Back to home",
+  "statusPlaced": "Received",
+  "statusPreparing": "Preparing",
+  "statusOnTheWay": "On the way",
+  "statusDelivered": "Delivered",
+  "placeOrderFailed": "We couldn't place your order. Try again.",
+  "statusPlacedBody": "The restaurant got your order",
+  "statusPreparingBody": "{restaurant} is preparing your food",
+  "@statusPreparingBody": {
+    "placeholders": {
+      "restaurant": {
+        "type": "String"
+      }
+    }
+  },
+  "statusOnTheWayBody": "Your rider is on the way",
+  "statusDeliveredTitle": "Enjoy your meal!",
+  "statusDeliveredBody": "Your order was delivered",
+  "arrivesIn": "Arrives in",
+  "minutesCount": "{count} min",
+  "@minutesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stepPlaced": "Placed",
+  "stepPreparing": "Preparing",
+  "stepOnTheWay": "On the way",
+  "stepDelivered": "Delivered",
+  "rider": "Sufra rider",
+  "riderOnTheWay": "Bringing your order",
+  "orderDetails": "Order details",
+  "reorder": "Order again",
+  "restaurantLocation": "Location",
+  "demoTimeNote": "Demo: time runs {times}× faster",
+  "@demoTimeNote": {
+    "placeholders": {
+      "times": {
+        "type": "int"
+      }
+    }
+  },
+  "sortBy": "Sort by",
+  "sortRecommended": "Recommended",
+  "sortNearest": "Nearest",
+  "sortRating": "Top rated",
+  "sortFastest": "Fastest delivery",
+  "sortDeliveryFee": "Lowest delivery fee",
+  "filterOpenOnly": "Open now only",
+  "filterTopRated": "Rated 4.5+",
+  "filterCheapDelivery": "Delivery ₪4 or less",
+  "showOnly": "Show only",
+  "reset": "Reset",
+  "showResults": "{count, plural, =0{No restaurants match} =1{Show 1 restaurant} other{Show {count} restaurants}}",
+  "@showResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "distanceKm": "{km} km",
+  "@distanceKm": {
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceFromAddress": "Distances from your address",
+  "distanceFromCenter": "Add your address for exact distances",
+  "signUpTitle": "Create account",
+  "email": "Email",
+  "password": "Password",
+  "emailInvalid": "Enter a valid email",
+  "passwordTooShort": "At least 8 characters",
+  "haveAccount": "Already have an account? Sign in",
+  "noAccount": "New here? Create an account",
+  "signInToOrder": "Sign in to place your order",
+  "signInAndOrder": "Sign in to continue",
+  "signInBenefit": "Your addresses and orders follow you to any phone.",
+  "signOut": "Sign out",
+  "signedIn": "Signed in",
+  "authInvalidCredentials": "Wrong email or password",
+  "authEmailNotConfirmed": "Confirm your email first, then sign in",
+  "authUserExists": "This email already has an account. Sign in instead.",
+  "authWeakPassword": "Choose a stronger password",
+  "authCheckEmail": "We sent you a confirmation link. Open it, then sign in.",
+  "authFailed": "Couldn't reach the server. Check your connection.",
+  "demoMode": "Demo mode: connect Supabase to turn on accounts",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "shareRestaurant": "Try {name} on Sufra: {cuisine} in {area} 🍽️",
+  "@shareRestaurant": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "cuisine": {
+        "type": "String"
+      },
+      "area": {
+        "type": "String"
+      }
+    }
+  }
+}
