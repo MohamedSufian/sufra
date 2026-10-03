@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sufra banner</title>
+<!-- Rendered to docs/brand/banner.png (1280×640) by tool/render_banner.mjs. -->
+<style>
+  @font-face { font-family: 'Alexandria'; font-weight: 800; src: url('../../assets/google_fonts/Alexandria-ExtraBold.ttf'); }
+  @font-face { font-family: 'Alexandria'; font-weight: 700; src: url('../../assets/google_fonts/Alexandria-Bold.ttf'); }
+  @font-face { font-family: 'Alexandria'; font-weight: 600; src: url('../../assets/google_fonts/Alexandria-SemiBold.ttf'); }
+  @font-face { font-family: 'Plex'; font-weight: 400; src: url('../../assets/google_fonts/IBMPlexSansArabic-Regular.ttf'); }
+  @font-face { font-family: 'Plex'; font-weight: 600; src: url('../../assets/google_fonts/IBMPlexSansArabic-SemiBold.ttf'); }
+
+  :root { --coral: #ff5a36; --ember: #d7401b; --saffron: #ffb627; --mint: #2ec4b6; --night: #0f0f14; --cream: #faf7f5; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; background: var(--night); }
+
+  .banner {
+    position: relative; width: 1280px; height: 640px; overflow: hidden;
+    background:
+      radial-gradient(900px 520px at 88% 60%, rgba(255, 90, 54, 0.38), transparent 62%),
+      radial-gradient(520px 380px at 4% 0%, rgba(255, 182, 39, 0.16), transparent 70%),
+      var(--night);
+    font-family: 'Plex', sans-serif; color: var(--cream);
+  }
+  /* Faint dot grid for texture. */
+  .banner::before {
+    content: ''; position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 22px 22px;
+    mask-image: linear-gradient(90deg, #000 0%, transparent 55%);
+  }
+
+  .copy { position: absolute; left: 76px; top: 0; bottom: 0; width: 600px; display: flex; flex-direction: column; justify-content: center; }
+  .brand { display: flex; align-items: center; gap: 20px; }
+  .brand img { width: 92px; height: 92px; border-radius: 24px; box-shadow: 0 18px 40px rgba(215, 64, 27, 0.45); }
+  .name { font-family: 'Alexandria'; font-weight: 800; font-size: 86px; line-height: 1; letter-spacing: -1.5px; }
+  .name-ar { font-family: 'Alexandria'; font-weight: 700; font-size: 40px; color: var(--coral); margin-top: 6px; }
+  .tagline { margin-top: 28px; font-family: 'Alexandria'; font-weight: 600; font-size: 29px; line-height: 1.3; }
+  .tagline em { font-style: normal; color: var(--saffron); }
+  .sub { margin-top: 14px; font-size: 16.5px; line-height: 1.5; color: rgba(250, 247, 245, 0.72); }
+  .chips { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .chips span {
+    font-family: 'Plex'; font-weight: 600; font-size: 14px; padding: 6px 13px; border-radius: 999px;
+    background: rgba(255, 255, 255, 0.07); border: 1px solid rgba(255, 255, 255, 0.14);
+  }
+  .chips span.hot { background: var(--ember); border-color: var(--ember); color: #fff; }
+
+  .phone {
+    position: absolute; width: 236px; height: 511px; border-radius: 38px; padding: 9px;
+    background: #1d1d26; border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(0, 0, 0, 0.6) inset;
+  }
+  .phone img { width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 30px; display: block; }
+  .p1 { left: 668px; top: 112px; transform: rotate(-7deg); }
+  .p2 { left: 842px; top: 64px; transform: rotate(0deg); z-index: 2; width: 252px; height: 545px; }
+  .p3 { left: 1018px; top: 118px; transform: rotate(7deg); }
+</style>
+</head>
+<body>
+<div class="banner">
+  <div class="copy">
+    <div class="brand">
+      <img src="../../assets/icon/app_icon.png" alt="">
+      <div>
+        <div class="name">Sufra</div>
+        <div class="name-ar">سُفرة</div>
+      </div>
+    </div>
+    <div class="tagline">Food delivery, <em>built for Gaza.</em></div>
+    <p class="sub">Arabic &amp; English · map-based addresses · live order tracking · cash on delivery</p>
+    <div class="chips">
+      <span class="hot">Flutter</span><span>Riverpod</span><span>Supabase</span><span>PostgreSQL · RLS</span><span>OpenStreetMap</span>
+    </div>
+  </div>
+
+  <div class="phone p1"><img src="../screenshots/01-home-ar-light.png" alt=""></div>
+  <div class="phone p2"><img src="../screenshots/07-tracking-ar-dark.png" alt=""></div>
+  <div class="phone p3"><img src="../screenshots/04-dish-options-ar-light.png" alt=""></div>
+</div>
+</body>
+</html>
